@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18AC4E931C4CDB8100D20D43 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC4E921C4CDB8100D20D43 /* ViewController2.m */; };
 		18D0459C1C48A00D00F4B3C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D0459B1C48A00D00F4B3C3 /* main.m */; };
 		18D0459F1C48A00D00F4B3C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D0459E1C48A00D00F4B3C3 /* AppDelegate.m */; };
 		18D045A21C48A00D00F4B3C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D045A11C48A00D00F4B3C3 /* ViewController.m */; };
@@ -15,6 +16,7 @@
 		18D045AA1C48A00D00F4B3C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D045A81C48A00D00F4B3C3 /* LaunchScreen.storyboard */; };
 		18D045B51C48A00D00F4B3C3 /* tableviewtestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D045B41C48A00D00F4B3C3 /* tableviewtestTests.m */; };
 		18D045C01C48A00D00F4B3C3 /* tableviewtestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D045BF1C48A00D00F4B3C3 /* tableviewtestUITests.m */; };
+		18D045CF1C48A06200F4B3C3 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D045CE1C48A06200F4B3C3 /* TableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18AC4E911C4CDB8100D20D43 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		18AC4E921C4CDB8100D20D43 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
 		18D045971C48A00D00F4B3C3 /* tableviewtest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tableviewtest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D0459B1C48A00D00F4B3C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18D0459D1C48A00D00F4B3C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +55,8 @@
 		18D045BB1C48A00D00F4B3C3 /* tableviewtestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tableviewtestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D045BF1C48A00D00F4B3C3 /* tableviewtestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tableviewtestUITests.m; sourceTree = "<group>"; };
 		18D045C11C48A00D00F4B3C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18D045CD1C48A06200F4B3C3 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		18D045CE1C48A06200F4B3C3 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				18D0459E1C48A00D00F4B3C3 /* AppDelegate.m */,
 				18D045A01C48A00D00F4B3C3 /* ViewController.h */,
 				18D045A11C48A00D00F4B3C3 /* ViewController.m */,
+				18AC4E911C4CDB8100D20D43 /* ViewController2.h */,
+				18AC4E921C4CDB8100D20D43 /* ViewController2.m */,
+				18D045CD1C48A06200F4B3C3 /* TableViewCell.h */,
+				18D045CE1C48A06200F4B3C3 /* TableViewCell.m */,
 				18D045A31C48A00D00F4B3C3 /* Main.storyboard */,
 				18D045A61C48A00D00F4B3C3 /* Assets.xcassets */,
 				18D045A81C48A00D00F4B3C3 /* LaunchScreen.storyboard */,
@@ -274,6 +284,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				18D045A21C48A00D00F4B3C3 /* ViewController.m in Sources */,
+				18D045CF1C48A06200F4B3C3 /* TableViewCell.m in Sources */,
+				18AC4E931C4CDB8100D20D43 /* ViewController2.m in Sources */,
 				18D0459F1C48A00D00F4B3C3 /* AppDelegate.m in Sources */,
 				18D0459C1C48A00D00F4B3C3 /* main.m in Sources */,
 			);
@@ -499,6 +511,7 @@
 				18D045C61C48A00D00F4B3C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18D045C71C48A00D00F4B3C3 /* Build configuration list for PBXNativeTarget "tableviewtestTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +520,7 @@
 				18D045C91C48A00D00F4B3C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18D045CA1C48A00D00F4B3C3 /* Build configuration list for PBXNativeTarget "tableviewtestUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +529,7 @@
 				18D045CC1C48A00D00F4B3C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
